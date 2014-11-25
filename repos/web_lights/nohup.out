@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "pumpkin.py", line 20, in <module>
+    led.fill(Color(r, g, b, level))
+  File "/usr/local/lib/python2.7/dist-packages/raspledstrip/color.py", line 12, in __init__
+    raise ValueError('Brightness must be between 0.0 and 1.0')
+ValueError: Brightness must be between 0.0 and 1.0
+Traceback (most recent call last):
+  File "pumpkin.py", line 20, in <module>
+    led.fill(Color(r, g, b, level))
+  File "/usr/local/lib/python2.7/dist-packages/raspledstrip/color.py", line 12, in __init__
+    raise ValueError('Brightness must be between 0.0 and 1.0')
+ValueError: Brightness must be between 0.0 and 1.0
+Traceback (most recent call last):
+  File "pumpkin.py", line 20, in <module>
+    led.fill(Color(r, g, b, level))
+  File "/usr/local/lib/python2.7/dist-packages/raspledstrip/ledstrip.py", line 63, in fill
+    self.__set_internal(led, color)
+KeyboardInterrupt
